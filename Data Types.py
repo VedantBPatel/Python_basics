@@ -80,6 +80,7 @@ print(list1)
 """
 Tuple is an ordered collection of python objects much like this.
 Tuple is defined as a record means in small braces and objects are seperated by column.
+Tuple is immutable and can have duplicate values.
 """
 Tup1=("Vedant", 1,'a','b','z',9)
 print(Tup1)
