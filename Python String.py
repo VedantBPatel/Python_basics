@@ -1,5 +1,6 @@
 """
 So there are some operations like ,creation addition,deletion,updation that can be performed on data types.
+String is immutable.
 """
 
 #1: Creating a string
