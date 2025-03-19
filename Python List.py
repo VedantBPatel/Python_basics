@@ -1,3 +1,5 @@
+#List is mutable and allows duplicate values.
+
 #1: Creating a List
 list=[1,2,3,4,5,"Vedant","Rahul"]
 print(list)
@@ -51,3 +53,32 @@ for i in list:
     print(i)
 for i in list:
     print(i,end=" ")
+print()
+#PYTHON LIST METHODS:
+#1.copy():Returns a shalow copy of list.
+a=[1,2,3]
+b=a.copy()
+print(b)
+
+#2.clear():Removes all elements from the list.
+list=[1,2,3]
+print()
+print(list)
+list.clear()
+print(list)
+
+#3.count():Returns the number of times a specified element appeared.
+list=[1,2,2,3,4,5,5,5,6,4,8,5,2,54,1,5,5,5]
+print(list.count(5))
+
+#4.index():Returns the index of the first occurence of a specified element.
+print(list.index(2))
+
+#5.reverse():Reverses the order of the elements in the list.
+list=[1,2,3,4,5,6,7,8,9,10]
+list.reverse()
+print(list)
+
+#6.sort():Sorts the list in ascending order by default.
+list.sort()
+print(list)
