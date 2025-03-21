@@ -27,6 +27,7 @@ is invoked and it initializes the new object and can take arguments to set its u
 It is basically a instance specific constructor which focuses on initialization of object as needed.
 Python by default calls this constructor if not defined manually.
 #self: the self keyword is used to specify the instance of a class.
+It is a reference to the current instance of the class.
 by using self keyword, we can access the attributes and methods of the class in python.
 """
 
