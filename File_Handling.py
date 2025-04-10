@@ -1,7 +1,7 @@
 #Python File Handling
 """
 File Handling is ability of Python to handle fiels.
-To read,write,files alogn with many other file options.
+To read,write,files along with many other file options.
 Python treats files differently as text or binary and this is important.
 Each line of code includes a sequence of characters and they form a teext file.
 Each line of a file is terminated with a speacial character called the EOL(end of linr)like comaa',' or '\n'
