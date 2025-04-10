@@ -4,7 +4,7 @@ Constructors are generally used for instantiating an object.
 The task of constructors is to initialize(assing value)to the data members of the class when an object of class is created.
 In python __iniit__ method is called the constructor and is always called when a object is created.
 #1.Default Constructor: Which is called implicitly and accepts no arguments.
-#2.Parameterized Constructor: Which is called ecplicitly with parameters.
+#2.Parameterized Constructor: Which is called explicitly with parameters.
 """
 class Animal:
     def __init__(self,name,sound):
