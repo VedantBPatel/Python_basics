@@ -32,7 +32,7 @@ s.mileage()
 
 #Encapsulation
 """
-Encapsulation allows to bind together data and the functions of a class that operate on them into an single enrity(object).
+Encapsulation allows to bind together data and the functions of a class that operate on them into an single entity(object).
 This puts restictions on accessing variables and methods directly 
 and can prevent the accidental modification of data.
 To prevent it,, an object's variable can only be changed by an object's method. Those are called private.
